@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    height: 30px;
+    width: 30px;
+}
+.logo-text{
+    padding-left: 12px;
+    font-weight: 900;
+    font-size: 18px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.btn{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgb(251, 250, 250);
+}
+.logo-btn-container{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.search-signin{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 0 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: blue;
+}
+.body-container{
+    width: 100%;
+    height: 650px;
+    background-image: radial-gradient(circle at 110% 110% , red 60%, rgb(145, 10, 10) 60%);
+    display: flex;   
+}
+.left-head-img{
+    height: 70px;
+    width: 70px;
+    margin-left: 110px;
+    margin-top: 150px;
+}
+.left-head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.left-head-text{
+    width: 270px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 16px;
+    margin-top: 175px;
+    font-family: 'Poppins', sans-serif;
+}
+.left-container{
+    width: 600px;
+}
+.left-body{
+    color: white;    
+    font-family: 'Poppins', sans-serif;
+    margin-left: 110px;
+}
+.left-btn{
+    background-color: rgb(87, 87, 252);
+    color: white;
+    border-radius: 32px;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.left-btn:hover{
+    background: rgb(87, 87, 252, 0.90);
+}
+.right-img{
+    height: 400px;
+    width: 650px;
+    margin-top: 110px;
+    margin-left: 180px;
+}
+.inner-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 2px solid black;
+    background: white;
+    color: rgb(85, 80, 80);
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 16px;
+}
+.inner-btn:hover{
+    background-color: rgb(80, 77, 77);
+    color: white;
+}
+.navbar-body{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+    margin: 12px 0;
+}
+.three-container{
+    width: 100%;
+    display: flex;
+    gap: 22px;
+    justify-content: space-evenly;
+}
+.card{
+    width: 370px;
+    height: 500px;
+    background: #B8FF64;
+    background: linear-gradient(315deg, #B8FF64, #235AE4);
+    padding-left: 40px;
+    padding-top: 22px;
+    color: black;
+    margin-left: 22px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.card-img{
+    padding: 28px 0;
+    border-radius: 12px;
+    width: 450px;
+    height: 300px;
+}
+.card-2{
+    position: relative;
+    background: #F99C9C;
+    background: linear-gradient(180deg, #F99C9C, #B70202);
+}
+.card-img-1{
+    position: absolute;
+    width: 425px;
+    height: 225px;
+    padding: auto;
+    bottom: 0;
+    left: 0;
+    margin-left: -60px;
+}
+.card-3{
+    width: 370px;
+    height: 500px;
+    background-color: rgb(206, 202, 202);
+    color: black;
+    margin-left: 22px;
+    padding-bottom: 22px;
+}
+.top-card{
+    color: white;
+    height: 40%;
+    background: #6A1182;
+    padding-left: 42px;
+    padding-top: 12px;
+    padding-bottom: 32px;
+    background: linear-gradient(270deg, #6A1182, #DC358C);
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-link:hover{
+    text-decoration: underline;
+}
+.card-link-bt:hover{
+    text-decoration: underline;
+}
+.card-link-bt{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+.bottom-card{
+    color: white;
+    height: 60%;
+    margin-top: 0;
+    padding: 0 42px;
+    color: black;
+}
+.card-2-link{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;
+}
+.card-2-link:hover{
+    text-decoration: underline;
+}
+.big-card{
+    width: 870px;
+    height: 500px;
+    margin-top: 32px;
+    margin-left: 32px;
+    background-image: linear-gradient(to bottom, rgb(149, 77, 17, 0.95), rgba(193, 18, 167, 0.73)), url('./assets/adobeExpress.jpg');
+    cursor: pointer;
+    position: relative;
+}
+.big-card-content{
+    position: absolute;
+    top: 0;
+    padding: 32px;
+    color: white;
+    line-height: 26px;
+}
+.big-card-right{
+    width: 370px;
+    background: rgb(207, 207, 207);
+    margin-top: 32px;
+    cursor: pointer;
+}
+.big-container{
+    display: flex;
+    gap: 50px;
+}
+.big-card-img{
+    width: 250px;
+    padding-left: 43px;
+    padding-top: 45px;
+}
+.big-content-right{
+    padding-left: 32px;
+    padding-top: 20px;
+}
+.product-card-left{
+    width: 400px;
+    height: 500px;
+    margin-top: 32px;
+    margin-left: 22px;
+    background: #BD99C9;
+    background: linear-gradient(135deg, #BD99C9, #7A347F);
+}
+.product-content-left{
+    padding-left: 35px;
+    padding-top: 12px;    
+}
+.card-img-product{
+    width: 100%;
+    height: 30%;
+    padding-top: 78px;
+}
+.pro-card{
+    padding-left: 32px;
+    color: white;
+    padding-top: 12px;
+    height: 488px;
+    width: 390px;
+    position: relative;
+    background: #F99C9C;
+    background: linear-gradient(180deg, #F99C9C, #B70202);
+}
+.pro-link{
+    color: white;
+}
+.pro-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+}
+.cardd{
+    margin-top: 24px;
+    width: 370px;
+    height: 488px;
+    background-color: black;
+    margin-left: 22px;
+    padding-bottom: 22px;
+}
+.news{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.bt-card-1{
+    color: white;
+}
+.read{
+    text-decoration: none; 
+    color: white;
+}
+.read:hover{
+    text-decoration: underline;
+}
